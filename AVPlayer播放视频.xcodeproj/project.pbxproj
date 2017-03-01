@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		847A86281DC6D75E00C1C902 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 847A86271DC6D75E00C1C902 /* main.m */; };
+		847A862B1DC6D75E00C1C902 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 847A862A1DC6D75E00C1C902 /* AppDelegate.m */; };
+		847A862E1DC6D75E00C1C902 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 847A862D1DC6D75E00C1C902 /* ViewController.m */; };
+		847A86311DC6D75E00C1C902 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847A862F1DC6D75E00C1C902 /* Main.storyboard */; };
+		847A86331DC6D75E00C1C902 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 847A86321DC6D75E00C1C902 /* Assets.xcassets */; };
+		847A86361DC6D75E00C1C902 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847A86341DC6D75E00C1C902 /* LaunchScreen.storyboard */; };
+		847A86411DC6D75E00C1C902 /* AVPlayer____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 847A86401DC6D75E00C1C902 /* AVPlayer____Tests.m */; };
+		847A864C1DC6D75E00C1C902 /* AVPlayer____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 847A864B1DC6D75E00C1C902 /* AVPlayer____UITests.m */; };
+		847A865B1DC6E0B000C1C902 /* LGMoviePlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 847A865A1DC6E0B000C1C902 /* LGMoviePlayerViewController.m */; };
+		847A865E1DC6E17600C1C902 /* LGMoviePlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 847A865D1DC6E17600C1C902 /* LGMoviePlayerView.m */; };
+		847A866C1DC6E85900C1C902 /* 5540385469401b10912f7a24-6.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 847A86601DC6E85900C1C902 /* 5540385469401b10912f7a24-6.mp4 */; };
+		847A866D1DC6E85900C1C902 /* 分享_plyer.png in Resources */ = {isa = PBXBuildFile; fileRef = 847A86611DC6E85900C1C902 /* 分享_plyer.png */; };
+		847A866E1DC6E85900C1C902 /* 分享_选中.png in Resources */ = {isa = PBXBuildFile; fileRef = 847A86621DC6E85900C1C902 /* 分享_选中.png */; };
+		847A866F1DC6E85900C1C902 /* 播放器_播放.png in Resources */ = {isa = PBXBuildFile; fileRef = 847A86631DC6E85900C1C902 /* 播放器_播放.png */; };
+		847A86701DC6E85900C1C902 /* 播放器_暂停.png in Resources */ = {isa = PBXBuildFile; fileRef = 847A86641DC6E85900C1C902 /* 播放器_暂停.png */; };
+		847A86711DC6E85900C1C902 /* 播放器_返回.png in Resources */ = {isa = PBXBuildFile; fileRef = 847A86651DC6E85900C1C902 /* 播放器_返回.png */; };
+		847A86721DC6E85900C1C902 /* 播放器_静音.png in Resources */ = {isa = PBXBuildFile; fileRef = 847A86661DC6E85900C1C902 /* 播放器_静音.png */; };
+		847A86731DC6E85900C1C902 /* 播放器_音量.png in Resources */ = {isa = PBXBuildFile; fileRef = 847A86671DC6E85900C1C902 /* 播放器_音量.png */; };
+		847A86741DC6E85900C1C902 /* 收藏_plyer.png in Resources */ = {isa = PBXBuildFile; fileRef = 847A86681DC6E85900C1C902 /* 收藏_plyer.png */; };
+		847A86751DC6E85900C1C902 /* 收藏_选中_plyer.png in Resources */ = {isa = PBXBuildFile; fileRef = 847A86691DC6E85900C1C902 /* 收藏_选中_plyer.png */; };
+		847A86761DC6E85900C1C902 /* 缓存_plyer.png in Resources */ = {isa = PBXBuildFile; fileRef = 847A866A1DC6E85900C1C902 /* 缓存_plyer.png */; };
+		847A86771DC6E85900C1C902 /* 缓存_选中.png in Resources */ = {isa = PBXBuildFile; fileRef = 847A866B1DC6E85900C1C902 /* 缓存_选中.png */; };
+		84C954B51DCD8B70004075F1 /* thumb.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C954B41DCD8B70004075F1 /* thumb.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		847A863D1DC6D75E00C1C902 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 847A861B1DC6D75D00C1C902 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 847A86221DC6D75D00C1C902;
+			remoteInfo = "AVPlayer播放视频";
+		};
+		847A86481DC6D75E00C1C902 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 847A861B1DC6D75D00C1C902 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 847A86221DC6D75D00C1C902;
+			remoteInfo = "AVPlayer播放视频";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		847A86231DC6D75E00C1C902 /* AVPlayer播放视频.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AVPlayer播放视频.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		847A86271DC6D75E00C1C902 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		847A86291DC6D75E00C1C902 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		847A862A1DC6D75E00C1C902 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		847A862C1DC6D75E00C1C902 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		847A862D1DC6D75E00C1C902 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		847A86301DC6D75E00C1C902 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		847A86321DC6D75E00C1C902 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		847A86351DC6D75E00C1C902 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		847A86371DC6D75E00C1C902 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		847A863C1DC6D75E00C1C902 /* AVPlayer播放视频Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AVPlayer播放视频Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		847A86401DC6D75E00C1C902 /* AVPlayer____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AVPlayer____Tests.m"; sourceTree = "<group>"; };
+		847A86421DC6D75E00C1C902 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		847A86471DC6D75E00C1C902 /* AVPlayer播放视频UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AVPlayer播放视频UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		847A864B1DC6D75E00C1C902 /* AVPlayer____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AVPlayer____UITests.m"; sourceTree = "<group>"; };
+		847A864D1DC6D75E00C1C902 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		847A86591DC6E0B000C1C902 /* LGMoviePlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGMoviePlayerViewController.h; sourceTree = "<group>"; };
+		847A865A1DC6E0B000C1C902 /* LGMoviePlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGMoviePlayerViewController.m; sourceTree = "<group>"; };
+		847A865C1DC6E17600C1C902 /* LGMoviePlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGMoviePlayerView.h; sourceTree = "<group>"; };
+		847A865D1DC6E17600C1C902 /* LGMoviePlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGMoviePlayerView.m; sourceTree = "<group>"; };
+		847A86601DC6E85900C1C902 /* 5540385469401b10912f7a24-6.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "5540385469401b10912f7a24-6.mp4"; sourceTree = "<group>"; };
+		847A86611DC6E85900C1C902 /* 分享_plyer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "分享_plyer.png"; sourceTree = "<group>"; };
+		847A86621DC6E85900C1C902 /* 分享_选中.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "分享_选中.png"; sourceTree = "<group>"; };
+		847A86631DC6E85900C1C902 /* 播放器_播放.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "播放器_播放.png"; sourceTree = "<group>"; };
+		847A86641DC6E85900C1C902 /* 播放器_暂停.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "播放器_暂停.png"; sourceTree = "<group>"; };
+		847A86651DC6E85900C1C902 /* 播放器_返回.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "播放器_返回.png"; sourceTree = "<group>"; };
+		847A86661DC6E85900C1C902 /* 播放器_静音.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "播放器_静音.png"; sourceTree = "<group>"; };
+		847A86671DC6E85900C1C902 /* 播放器_音量.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "播放器_音量.png"; sourceTree = "<group>"; };
+		847A86681DC6E85900C1C902 /* 收藏_plyer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "收藏_plyer.png"; sourceTree = "<group>"; };
+		847A86691DC6E85900C1C902 /* 收藏_选中_plyer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "收藏_选中_plyer.png"; sourceTree = "<group>"; };
+		847A866A1DC6E85900C1C902 /* 缓存_plyer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "缓存_plyer.png"; sourceTree = "<group>"; };
+		847A866B1DC6E85900C1C902 /* 缓存_选中.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "缓存_选中.png"; sourceTree = "<group>"; };
+		84C954B41DCD8B70004075F1 /* thumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumb.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		847A86201DC6D75D00C1C902 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847A86391DC6D75E00C1C902 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847A86441DC6D75E00C1C902 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		847A861A1DC6D75D00C1C902 = {
+			isa = PBXGroup;
+			children = (
+				847A86251DC6D75E00C1C902 /* AVPlayer播放视频 */,
+				847A863F1DC6D75E00C1C902 /* AVPlayer播放视频Tests */,
+				847A864A1DC6D75E00C1C902 /* AVPlayer播放视频UITests */,
+				847A86241DC6D75E00C1C902 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		847A86241DC6D75E00C1C902 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				847A86231DC6D75E00C1C902 /* AVPlayer播放视频.app */,
+				847A863C1DC6D75E00C1C902 /* AVPlayer播放视频Tests.xctest */,
+				847A86471DC6D75E00C1C902 /* AVPlayer播放视频UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		847A86251DC6D75E00C1C902 /* AVPlayer播放视频 */ = {
+			isa = PBXGroup;
+			children = (
+				847A865F1DC6E85900C1C902 /* Resource */,
+				847A86291DC6D75E00C1C902 /* AppDelegate.h */,
+				847A862A1DC6D75E00C1C902 /* AppDelegate.m */,
+				847A862C1DC6D75E00C1C902 /* ViewController.h */,
+				847A862D1DC6D75E00C1C902 /* ViewController.m */,
+				847A86591DC6E0B000C1C902 /* LGMoviePlayerViewController.h */,
+				847A865A1DC6E0B000C1C902 /* LGMoviePlayerViewController.m */,
+				847A865C1DC6E17600C1C902 /* LGMoviePlayerView.h */,
+				847A865D1DC6E17600C1C902 /* LGMoviePlayerView.m */,
+				84C954B41DCD8B70004075F1 /* thumb.png */,
+				847A862F1DC6D75E00C1C902 /* Main.storyboard */,
+				847A86321DC6D75E00C1C902 /* Assets.xcassets */,
+				847A86341DC6D75E00C1C902 /* LaunchScreen.storyboard */,
+				847A86371DC6D75E00C1C902 /* Info.plist */,
+				847A86261DC6D75E00C1C902 /* Supporting Files */,
+			);
+			path = "AVPlayer播放视频";
+			sourceTree = "<group>";
+		};
+		847A86261DC6D75E00C1C902 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				847A86271DC6D75E00C1C902 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		847A863F1DC6D75E00C1C902 /* AVPlayer播放视频Tests */ = {
+			isa = PBXGroup;
+			children = (
+				847A86401DC6D75E00C1C902 /* AVPlayer____Tests.m */,
+				847A86421DC6D75E00C1C902 /* Info.plist */,
+			);
+			path = "AVPlayer播放视频Tests";
+			sourceTree = "<group>";
+		};
+		847A864A1DC6D75E00C1C902 /* AVPlayer播放视频UITests */ = {
+			isa = PBXGroup;
+			children = (
+				847A864B1DC6D75E00C1C902 /* AVPlayer____UITests.m */,
+				847A864D1DC6D75E00C1C902 /* Info.plist */,
+			);
+			path = "AVPlayer播放视频UITests";
+			sourceTree = "<group>";
+		};
+		847A865F1DC6E85900C1C902 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				847A86601DC6E85900C1C902 /* 5540385469401b10912f7a24-6.mp4 */,
+				847A86611DC6E85900C1C902 /* 分享_plyer.png */,
+				847A86621DC6E85900C1C902 /* 分享_选中.png */,
+				847A86631DC6E85900C1C902 /* 播放器_播放.png */,
+				847A86641DC6E85900C1C902 /* 播放器_暂停.png */,
+				847A86651DC6E85900C1C902 /* 播放器_返回.png */,
+				847A86661DC6E85900C1C902 /* 播放器_静音.png */,
+				847A86671DC6E85900C1C902 /* 播放器_音量.png */,
+				847A86681DC6E85900C1C902 /* 收藏_plyer.png */,
+				847A86691DC6E85900C1C902 /* 收藏_选中_plyer.png */,
+				847A866A1DC6E85900C1C902 /* 缓存_plyer.png */,
+				847A866B1DC6E85900C1C902 /* 缓存_选中.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		847A86221DC6D75D00C1C902 /* AVPlayer播放视频 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 847A86501DC6D75E00C1C902 /* Build configuration list for PBXNativeTarget "AVPlayer播放视频" */;
+			buildPhases = (
+				847A861F1DC6D75D00C1C902 /* Sources */,
+				847A86201DC6D75D00C1C902 /* Frameworks */,
+				847A86211DC6D75D00C1C902 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AVPlayer播放视频";
+			productName = "AVPlayer播放视频";
+			productReference = 847A86231DC6D75E00C1C902 /* AVPlayer播放视频.app */;
+			productType = "com.apple.product-type.application";
+		};
+		847A863B1DC6D75E00C1C902 /* AVPlayer播放视频Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 847A86531DC6D75E00C1C902 /* Build configuration list for PBXNativeTarget "AVPlayer播放视频Tests" */;
+			buildPhases = (
+				847A86381DC6D75E00C1C902 /* Sources */,
+				847A86391DC6D75E00C1C902 /* Frameworks */,
+				847A863A1DC6D75E00C1C902 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				847A863E1DC6D75E00C1C902 /* PBXTargetDependency */,
+			);
+			name = "AVPlayer播放视频Tests";
+			productName = "AVPlayer播放视频Tests";
+			productReference = 847A863C1DC6D75E00C1C902 /* AVPlayer播放视频Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		847A86461DC6D75E00C1C902 /* AVPlayer播放视频UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 847A86561DC6D75E00C1C902 /* Build configuration list for PBXNativeTarget "AVPlayer播放视频UITests" */;
+			buildPhases = (
+				847A86431DC6D75E00C1C902 /* Sources */,
+				847A86441DC6D75E00C1C902 /* Frameworks */,
+				847A86451DC6D75E00C1C902 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				847A86491DC6D75E00C1C902 /* PBXTargetDependency */,
+			);
+			name = "AVPlayer播放视频UITests";
+			productName = "AVPlayer播放视频UITests";
+			productReference = 847A86471DC6D75E00C1C902 /* AVPlayer播放视频UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		847A861B1DC6D75D00C1C902 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = LaiCunBa;
+				TargetAttributes = {
+					847A86221DC6D75D00C1C902 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = T26XGB397W;
+						ProvisioningStyle = Automatic;
+					};
+					847A863B1DC6D75E00C1C902 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 847A86221DC6D75D00C1C902;
+					};
+					847A86461DC6D75E00C1C902 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 847A86221DC6D75D00C1C902;
+					};
+				};
+			};
+			buildConfigurationList = 847A861E1DC6D75D00C1C902 /* Build configuration list for PBXProject "AVPlayer播放视频" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 847A861A1DC6D75D00C1C902;
+			productRefGroup = 847A86241DC6D75E00C1C902 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				847A86221DC6D75D00C1C902 /* AVPlayer播放视频 */,
+				847A863B1DC6D75E00C1C902 /* AVPlayer播放视频Tests */,
+				847A86461DC6D75E00C1C902 /* AVPlayer播放视频UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		847A86211DC6D75D00C1C902 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847A86771DC6E85900C1C902 /* 缓存_选中.png in Resources */,
+				847A866F1DC6E85900C1C902 /* 播放器_播放.png in Resources */,
+				847A86711DC6E85900C1C902 /* 播放器_返回.png in Resources */,
+				847A866E1DC6E85900C1C902 /* 分享_选中.png in Resources */,
+				847A86361DC6D75E00C1C902 /* LaunchScreen.storyboard in Resources */,
+				847A86751DC6E85900C1C902 /* 收藏_选中_plyer.png in Resources */,
+				847A866C1DC6E85900C1C902 /* 5540385469401b10912f7a24-6.mp4 in Resources */,
+				847A86331DC6D75E00C1C902 /* Assets.xcassets in Resources */,
+				847A86761DC6E85900C1C902 /* 缓存_plyer.png in Resources */,
+				847A86701DC6E85900C1C902 /* 播放器_暂停.png in Resources */,
+				847A86741DC6E85900C1C902 /* 收藏_plyer.png in Resources */,
+				847A86311DC6D75E00C1C902 /* Main.storyboard in Resources */,
+				84C954B51DCD8B70004075F1 /* thumb.png in Resources */,
+				847A86731DC6E85900C1C902 /* 播放器_音量.png in Resources */,
+				847A866D1DC6E85900C1C902 /* 分享_plyer.png in Resources */,
+				847A86721DC6E85900C1C902 /* 播放器_静音.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847A863A1DC6D75E00C1C902 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847A86451DC6D75E00C1C902 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		847A861F1DC6D75D00C1C902 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847A862E1DC6D75E00C1C902 /* ViewController.m in Sources */,
+				847A862B1DC6D75E00C1C902 /* AppDelegate.m in Sources */,
+				847A86281DC6D75E00C1C902 /* main.m in Sources */,
+				847A865B1DC6E0B000C1C902 /* LGMoviePlayerViewController.m in Sources */,
+				847A865E1DC6E17600C1C902 /* LGMoviePlayerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847A86381DC6D75E00C1C902 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847A86411DC6D75E00C1C902 /* AVPlayer____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847A86431DC6D75E00C1C902 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847A864C1DC6D75E00C1C902 /* AVPlayer____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		847A863E1DC6D75E00C1C902 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 847A86221DC6D75D00C1C902 /* AVPlayer播放视频 */;
+			targetProxy = 847A863D1DC6D75E00C1C902 /* PBXContainerItemProxy */;
+		};
+		847A86491DC6D75E00C1C902 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 847A86221DC6D75D00C1C902 /* AVPlayer播放视频 */;
+			targetProxy = 847A86481DC6D75E00C1C902 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		847A862F1DC6D75E00C1C902 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				847A86301DC6D75E00C1C902 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		847A86341DC6D75E00C1C902 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				847A86351DC6D75E00C1C902 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		847A864E1DC6D75E00C1C902 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		847A864F1DC6D75E00C1C902 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		847A86511DC6D75E00C1C902 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T26XGB397W;
+				INFOPLIST_FILE = "AVPlayer播放视频/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LaiCunBa.AVPlayer----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		847A86521DC6D75E00C1C902 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T26XGB397W;
+				INFOPLIST_FILE = "AVPlayer播放视频/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LaiCunBa.AVPlayer----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		847A86541DC6D75E00C1C902 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "AVPlayer播放视频Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LaiCunBa.AVPlayer----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AVPlayer播放视频.app/AVPlayer播放视频";
+			};
+			name = Debug;
+		};
+		847A86551DC6D75E00C1C902 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "AVPlayer播放视频Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LaiCunBa.AVPlayer----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AVPlayer播放视频.app/AVPlayer播放视频";
+			};
+			name = Release;
+		};
+		847A86571DC6D75E00C1C902 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "AVPlayer播放视频UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LaiCunBa.AVPlayer----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "AVPlayer播放视频";
+			};
+			name = Debug;
+		};
+		847A86581DC6D75E00C1C902 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "AVPlayer播放视频UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LaiCunBa.AVPlayer----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "AVPlayer播放视频";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		847A861E1DC6D75D00C1C902 /* Build configuration list for PBXProject "AVPlayer播放视频" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				847A864E1DC6D75E00C1C902 /* Debug */,
+				847A864F1DC6D75E00C1C902 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		847A86501DC6D75E00C1C902 /* Build configuration list for PBXNativeTarget "AVPlayer播放视频" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				847A86511DC6D75E00C1C902 /* Debug */,
+				847A86521DC6D75E00C1C902 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		847A86531DC6D75E00C1C902 /* Build configuration list for PBXNativeTarget "AVPlayer播放视频Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				847A86541DC6D75E00C1C902 /* Debug */,
+				847A86551DC6D75E00C1C902 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		847A86561DC6D75E00C1C902 /* Build configuration list for PBXNativeTarget "AVPlayer播放视频UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				847A86571DC6D75E00C1C902 /* Debug */,
+				847A86581DC6D75E00C1C902 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 847A861B1DC6D75D00C1C902 /* Project object */;
+}
